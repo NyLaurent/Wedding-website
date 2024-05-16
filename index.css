@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Single+Day&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+}
+
+:root {
+    --pink: lightpink;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+}
+
+.video-container {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+
+    margin: 0;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    object-fit: cover;
+}
+.video-container h1{
+    font-size: 150px;
+    position: relative;
+    top: 270px;
+    right:332px;
+    letter-spacing:8px;
+    color: rgb(189, 160, 0);
+
+}
+.video-container h1 span{
+    font-size: 150px;
+    font-weight: bold;
+    color: transparent; 
+    -webkit-text-stroke: 1px #fff;
+   
+    
+}
+.video-container p{
+    position: relative;
+    right: 680px;
+    font-size:  30px; 
+    letter-spacing: 3px;
+    font-weight: 0;
+    top: 500px;
+    opacity: 0.7;
+    white-space: nowrap;
+    
+}
+.video-container  i{
+    color:  rgb(214, 182, 0);
+        
+
+
+}
+
+.use {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .use .bobo {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  .use .bobo .coco {
+    position: relative;
+    left: 0;
+    padding: 20px 40px;
+    z-index: 1;
+  
+    border-radius: 8px;
+  
+    z-index: 1000;
+    transition: 0.5s;
+    transform: 0.5s;
+    color: black;
+  }
+  
+  .use .bobo .coco h3 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .use .bobo .coco h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    font-weight: 300;
+  }
+.use h1{
+
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  bottom: -90px;
+  left: 600px;
+  font-size: 60px;
+  color: rgb(189, 160, 0);
+}
+.started h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: rgb(189, 160, 0);
+}
+.started p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .5;
+  padding-top: 25px;
+}
+.buto{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 29px;
+}
+button{
+  width: 200px;
+  height: 50px;
+  border:2px solid #fff;
+  outline: none;  
+  background:  rgb(189, 160, 0);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+button:hover{
+  transform: rotate(5deg)
+  
+}
+
+   
